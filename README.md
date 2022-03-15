@@ -10,8 +10,7 @@ The code is implemented in python 3.7.3 using Hugging Face's trasformers. To run
 pip install -r requirements.txt
 ```
 
-## References
-If you make use if this code, please cite the following paper:
+## Cite
 
 ```bash
 @inproceedings{Magar:2022,
