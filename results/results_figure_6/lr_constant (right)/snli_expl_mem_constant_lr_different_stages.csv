@@ -1,0 +1,4 @@
+task,model_size,wiki_size (tokens),pretrain_lr_scheduler,contamination_stage,ft_seen_avg,ft_seen_std,ft_unseen_avg,ft_unseen_std,ft_diff_avg (expl),ft_diff_std,mlm_seen,mlm_unseen,mlm_diff (mem)
+SNLI,base,6.00E+07,constant,first,49.56,2.23,45.61,1.88,3.95,1.17239,35.5,34.4,1.1
+SNLI,base,6.00E+07,constant,middle,52.37,1.15,46.33,1.46,6.04,1.6007,45.2,36.5,8.7
+SNLI,base,6.00E+07,constant,last,53.87,1.22,46.82,1.38,7.05,1.0855,63.7,42.4,21.3
