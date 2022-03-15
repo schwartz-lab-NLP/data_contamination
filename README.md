@@ -23,4 +23,4 @@ If you make use if this code, please cite the following paper:
 ```
 
 ## Contact
-For inquiries, please file an issue or email inbal.magar@mail.huji.ac.il.
+For inquiries, please send an email to inbal.magar@mail.huji.ac.il.
