@@ -45,7 +45,7 @@ from transformers import (
 from transformers.trainer_utils import get_last_checkpoint, is_main_process
 
 # from data_collator import DataCollatorForLanguageModeling
-from transformers_overrides/trainer import Trainer
+from pretrain/transformers_overrides/trainer import Trainer
 
 
 logger = logging.getLogger(__name__)
