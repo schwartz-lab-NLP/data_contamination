@@ -7,9 +7,9 @@ import pytorch_lightning as pl
 from pytorch_lightning.callbacks import ModelCheckpoint
 import argparse
 
-from finetune/SST5DataModule import SST5DataModule
-from finetune/SSTDataset5Labels import SSTDataset5Labels
-from finetune/SST5Classifier import SST5Classifier
+from SST5DataModule import SST5DataModule
+from SSTDataset5Labels import SSTDataset5Labels
+from SST5Classifier import SST5Classifier
 
 
 RANDOM_SEED = int(args.seed)
