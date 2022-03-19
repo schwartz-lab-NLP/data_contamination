@@ -1,4 +1,4 @@
-python test_mlm.py \
+python test_mem.py \
 --bert_model **path_to_prertained_model**\
 --tokenizer **path_to_tokenizer**\
 --results_path **path_to_results_folder**\
