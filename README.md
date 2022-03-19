@@ -23,8 +23,8 @@ python prepare_data/prepare_data.py \
 --path **path_to_new_file**
 ```
 
-## Run experiment pipeline
-To reproduce the experiments in the paper (or experiment with your own data), you can use the ```scripts/run_pipeline.sh``` command.
+## Reproduce experiments
+To reproduce the experiments in the paper (or experiment with your own data), use the ```scripts/run_pipeline.sh``` command.
 To reproduce the experiments of changing the position of the contaminated data (figure 4), use the ```scripts/run_pipeline_no_shuffle.sh``` command. 
 
 ## Cite
