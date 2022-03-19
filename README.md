@@ -12,6 +12,7 @@ pip install -r requirements.txt
 
 ## Data preperation
 To create the combined corpus of clean and contaminated data, one needs to extract and preprocess the April 21’ English Wikipedia dump (we used the wikiextractor tool (Attardi, 2015), which can be found in https://github.com/attardi/wikiextractor). Then, run the ```prepare_data.py``` command.
+
 E.g., 
 
 ```
