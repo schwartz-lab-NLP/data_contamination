@@ -10,9 +10,9 @@ def test_mlm(id=1):
 
     # get masked lines for inference and the data set with labels
     if id == 1 or id == 2:
-        with open(f'data/SST5/sst5_test_set_{id}_review_mask.txt', 'r') as f:
+        with open(f'datasets/SST5/sst5_test_set_{id}_review_mask.txt', 'r') as f:
             masked_lines = f.read().splitlines()
-        test_df = pd.read_csv(f"data/SST5/sst5_test_set_{id}.csv")
+        test_df = pd.read_csv(f"datasets/SST5/sst5_test_set_{id}.csv")
     else:
         return
 
