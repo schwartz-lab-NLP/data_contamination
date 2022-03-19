@@ -1,7 +1,7 @@
 from torch.utils.data import DataLoader
 import pytorch_lightning as pl
 
-from finetune/SST5Dataset import SST5Dataset
+from SST5Dataset import SST5Dataset
 
 
 class SST5DataModule(pl.LightningDataModule):
