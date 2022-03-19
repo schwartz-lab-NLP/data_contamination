@@ -1,4 +1,4 @@
-# data_contamination
+# Data Contamination
 
 Code for "Data Contamination: From Memorization to Exploitation" by Inbal Magar and Roy Schwartz, ACL 2022.
 
@@ -24,8 +24,8 @@ python prepare_data/prepare_data.py \
 ```
 
 ## Run experiment pipeline
-To reproduce the experiments in the paper (or experiment with your own data), you can use the ```scripts/basic_pipeline.sh``` command.
-To reproduce the experiments of changing the position of the contaminated data (figure 4), use the ```scripts/basic_pipeline_no_shuffle.sh``` command. 
+To reproduce the experiments in the paper (or experiment with your own data), you can use the ```scripts/run_pipeline.sh``` command.
+To reproduce the experiments of changing the position of the contaminated data (figure 4), use the ```scripts/run_pipeline_no_shuffle.sh``` command. 
 
 ## Cite
 
