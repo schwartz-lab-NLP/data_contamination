@@ -1,0 +1,4 @@
+task,model_size,wiki_size (tokens),pretrain_lr_scheduler,contamination_stage,ft_seen_avg,ft_seen_std,ft_unseen_avg,ft_unseen_std,ft_diff_avg (expl),ft_diff_std,mlm_seen,mlm_unseen,mlm_diff (mem)
+SST-2,base,6.00E+07,linear,first,88.87,1.816617736,71.78,1.742297334,17.09,0.94810337,80.8,66.7,14.1
+SST-2,base,6.00E+07,linear,middle,79.36,1.113732463,72.51,1.166576187,6.85,1.444472222,85.7,69.5,16.2
+SST-2,base,6.00E+07,linear,last,70.77,0.765571682,71.44,0.591945943,-0.67,0.759012516,77.5,70.4,7.1
