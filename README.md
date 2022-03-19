@@ -28,7 +28,6 @@ To reproduce the experiments in the paper (or experiment with your own data), us
 To reproduce the experiments of changing the position of the contaminated data (figure 4), use the ```scripts/run_pipeline_no_shuffle.sh``` command. 
 
 ## Cite
-
 ```bash
 @inproceedings{Magar:2022,
   author={Magar, Inbal and Schwartz, Roy},
