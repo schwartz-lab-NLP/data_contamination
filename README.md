@@ -4,7 +4,7 @@ Code for "Data Contamination: From Memorization to Exploitation" by Inbal Magar 
 
 ## Setup
 
-The code is implemented in python 3.7.3 using Hugging Face's trasformers. To run it, please install the requirements.txt file:
+The code is implemented in python 3.7.3 using Hugging Face's transformers. To run it, please install the requirements.txt file:
 
 ```bash
 pip install -r requirements.txt
