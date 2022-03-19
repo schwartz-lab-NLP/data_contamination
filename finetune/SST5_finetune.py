@@ -20,9 +20,9 @@ BATCH_SIZE = int(args.batch)
 N_EPOCHS = int(args.epoch)
 
 def fine_tune():
-    train_df = pd.read_csv(f"data/SST5/sst5_train_set.csv")
-    test_df = pd.read_csv(f"data/SST5/sst5_test_set_1.csv")
-    test2_df = pd.read_csv(f"data/SST5/sst5_test_set_2.csv")
+    train_df = pd.read_csv(f"datasets/SST5/sst5_train_set.csv")
+    test_df = pd.read_csv(f"datasets/SST5/sst5_test_set_1.csv")
+    test2_df = pd.read_csv(f"datasets/SST5/sst5_test_set_2.csv")
 
     # create data module (train and test)
     tokenizer = BertTokenizer.from_pretrained(args.tokenizer)
