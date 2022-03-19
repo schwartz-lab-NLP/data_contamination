@@ -10,7 +10,7 @@ The code is implemented in python 3.7.3 using Hugging Face's trasformers. To run
 pip install -r requirements.txt
 ```
 
-## Data Preperation
+## Data preperation
 To create the combined corpus of clean and contaminated data, one needs to extract and preprocess the April 21’ English Wikipedia dump (we used the wikiextractor tool (Attardi, 2015), which can be found in https://github.com/attardi/wikiextractor). Then, run the ```prepare_data.py``` command.
 E.g., 
 
@@ -23,6 +23,9 @@ python prepare_data/prepare_data.py \
 --path **path_to_new_file**
 ```
 
+## Run experiment pipeline
+To reproduce the experiments in the paper (or experiment with your own data), you can use the ```scripts/basic_pipeline.sh``` command.
+To reproduce the experiments of changing the position of the contaminated data (figure 4), use the ```scripts/basic_pipeline_no_shuffle.sh``` command. 
 
 ## Cite
 
