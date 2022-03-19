@@ -48,8 +48,3 @@ python results_parser.py\
 --unseen ${results_path}${id}_metrics_seen.txt\
 --results_path ${results_path}
 
-
-
-
-
-
