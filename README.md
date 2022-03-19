@@ -10,6 +10,20 @@ The code is implemented in python 3.7.3 using Hugging Face's trasformers. To run
 pip install -r requirements.txt
 ```
 
+## Data Preperation
+To create the combined corpus of clean and contaminated data, one needs to extract and preprocess the April 21’ English Wikipedia dump (we used the wikiextractor tool (Attardi, 2015), which can be found in https://github.com/attardi/wikiextractor). Then, run the ```prepare_data.py``` command.
+E.g., 
+
+```
+python prepare_data/prepare_data.py \
+--contamination_path data/SST5/sst5_train_test_1_set.txt\
+--contamination_copies 100 \
+--wiki_path **path_to_wikipedia_file** \
+--wiki_size 1e6 \
+--path **path_to_new_file**
+```
+
+
 ## Cite
 
 ```bash
