@@ -24,7 +24,7 @@ results_path=**path_to_results_folder**
 id=**model_identifier**
 
 # get mem metric
-python test_mlm.py \
+python test_mem.py \
 --bert_model ${bert_model}\
 --tokenizer ${tokenizer}\
 --results_path ${results_path}\
