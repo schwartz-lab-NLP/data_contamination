@@ -1,6 +1,6 @@
 # Data Contamination
 
-Code for "Data Contamination: From Memorization to Exploitation" by Inbal Magar and Roy Schwartz, ACL 2022.
+Code for ["Data Contamination: From Memorization to Exploitation"](https://aclanthology.org/2022.acl-short.18/) by Inbal Magar and Roy Schwartz, ACL 2022.
 
 ## Setup
 
@@ -30,12 +30,19 @@ To reproduce the experiments of changing the position of the contaminated data (
 
 ## Cite
 ```bash
-@inproceedings{Magar:2022,
-  author={Magar, Inbal and Schwartz, Roy},
-  title={Data Conatmination: From Memorization to Exploitation},
-  booktitle={Proc. of ACL},
-  year={2022}
+@inproceedings{magar-schwartz-2022-data,
+    title = "Data Contamination: From Memorization to Exploitation",
+    author = "Magar, Inbal  and Schwartz, Roy",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.acl-short.18",
+    doi = "10.18653/v1/2022.acl-short.18",
+    pages = "157--165",
 }
+
 ```
 
 ## Contact
